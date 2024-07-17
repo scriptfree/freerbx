@@ -6,7 +6,7 @@ local Tab1Section = Tab1:NewSection("Main")
 Tab1Section:NewToggle("Impossible Obby", "Farms impossible obby.", function(t)
 getgenv().FLO = t
 while getgenv().FLO and wait(.3) do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(72.9486312866211, -280.16778564453125, -1349.539794921875)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-98.02336120605469, 3.1877477169036865, -1609.510009765625)
 end
 end)
 
