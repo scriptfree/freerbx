@@ -13,7 +13,7 @@ end)
 Tab1Section:NewToggle("Hacker Obby", "Farms hacker obby.", function(t)
 getgenv().FLO = t
 while getgenv().FLO and wait(.3) do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.74, 3.7, -1573.8)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-186.74, 3.7, -1573.8)
 end
 end)
 
