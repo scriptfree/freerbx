@@ -10,6 +10,12 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-98.0233
 end
 end)
 
+Tab1Section:NewToggle("Hacker Obby", "Farms hacker obby.", function(t)
+getgenv().FLO = t
+while getgenv().FLO and wait(.3) do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-195.74, 3.7, -1573.8)
+end
+end)
 
 
 Tab1Section:NewButton("Anti AFK", "Never get kicked for being AFK", function()
